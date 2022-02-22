@@ -1,9 +1,7 @@
 {
     "name": "Edanoue.SaveData",
     "rootNamespace": "Edanoue.SaveData",
-    "references": [
-        "GUID:8a0f1cb6ad3bf7a4786ebfdb00aedd0b"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
