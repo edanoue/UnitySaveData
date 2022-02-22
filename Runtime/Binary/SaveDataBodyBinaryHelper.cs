@@ -36,7 +36,7 @@ namespace Edanoue.SaveData
             {
                 return (SaveDataBodyBinaryHelper)binaryFormatter.Deserialize(memoryStream);
             }
-            catch (System.Runtime.Serialization.SerializationException e)
+            catch (System.Runtime.Serialization.SerializationException)
             {
                 // デシリアライズに失敗したときにここに落ちる
                 // 1. Decompressがスルーされてしまった時

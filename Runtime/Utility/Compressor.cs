@@ -62,7 +62,7 @@ namespace Edanoue.SaveData
                     {
                         decompressionStream.CopyTo(outputStream);
                     }
-                    catch (IOException e)
+                    catch (IOException)
                     {
                         // 解凍に失敗した場合ここに落ちる
                         // TODO: 適切な処理をする
@@ -93,7 +93,7 @@ namespace Edanoue.SaveData
                             cancellationToken: cancellationToken
                         );
                     }
-                    catch (IOException e)
+                    catch (IOException)
                     {
                         // 解凍に失敗した場合ここに落ちる
                         // TODO: 適切な処理をする
