@@ -1,0 +1,16 @@
+{
+    "name": "Edanoue.SaveData",
+    "rootNamespace": "Edanoue.SaveData",
+    "references": [
+        "GUID:8a0f1cb6ad3bf7a4786ebfdb00aedd0b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

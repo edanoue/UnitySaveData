@@ -1,0 +1,18 @@
+{
+    "name": "Edanoue.SaveData.Editor",
+    "rootNamespace": "Edanoue.SaveData",
+    "references": [
+        "GUID:77adb835cb4886f40a17872ef57de043"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
