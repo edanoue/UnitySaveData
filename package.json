@@ -1,0 +1,12 @@
+{
+  "name": "com.edanoue.savedata",
+  "description": "",
+  "version": "1.0.0",
+  "displayName": "SaveData",
+  "unity": "2021.2",
+  "author": {
+    "name": "Edanoue, Inc.",
+    "email": "contact@edanoue.com",
+    "url": "https://edanoue.com"
+  }
+}
