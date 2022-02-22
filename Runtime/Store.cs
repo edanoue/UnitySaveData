@@ -106,7 +106,7 @@ namespace Edanoue.SaveData
             // 現在読込中のゲーム本編のセーブデータとする
             InGame = newSaveData;
 
-            Logging.Info("[SaveDataAPI] Created and load new ingame savedata");
+            Debug.Log("[SaveDataAPI] Created and load new ingame savedata");
             return true;
         }
 
@@ -168,7 +168,7 @@ namespace Edanoue.SaveData
             {
                 // 存在しないばあいディレクトリを全て(Recursiveに)作成する
                 Directory.CreateDirectory(SavePath);
-                Logging.Info($"[SaveDataAPI] Created directory: {SavePath}");
+                Debug.Log($"[SaveDataAPI] Created directory: {SavePath}");
             }
 
             // 保存予定のファイル名を取得する
